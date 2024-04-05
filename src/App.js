@@ -38,7 +38,7 @@ useEffect(()=>{
 
 // console.log(user)
 
-function Authentication ({children}){
+function Authentication (){
   let token = user
   return token !== null && token !== undefined && token !== "" ? (
     <Outlet/>
