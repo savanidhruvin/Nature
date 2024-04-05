@@ -63,7 +63,7 @@ const hadnleActive = (event) => {
       </ul>
       <form className="d-flex">
         {/* <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/> */}
-       { user ? <button className='btn btn-danger' onClick={handleLogout}  >Logout</button> : <button disabled className='btn btn-danger' onClick={handleLogout}>Logout</button>}
+       { user ? <button className='btn btn-danger' title='Log out' onClick={handleLogout}   >Logout</button> : <button disabled className='btn btn-danger' onClick={handleLogout}>Logout</button>}
       </form>
     </div>  
   </div>
