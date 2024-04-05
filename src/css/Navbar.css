@@ -1,0 +1,20 @@
+ .active-home.active {
+  color: white !important;
+  font-weight: bold !important;
+}
+.active-animal.active {
+  color: orange !important;
+  font-weight: bold;
+}
+
+.active-flower.active {
+  color:hotpink !important;
+  font-weight: bold;
+}
+
+.active-nature.active {
+  color:greenyellow !important;
+  font-weight: bold;
+
+}
+
